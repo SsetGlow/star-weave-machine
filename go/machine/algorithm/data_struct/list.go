@@ -14,7 +14,7 @@ type node struct {
 	next  *node
 }
 
-func (l list) Construct(values []int) (*list, error) {
+func (l list) Make(values []int) (*list, error) {
 	if len(values) <= 0 {
 		return nil, errors.New("empty value array")
 	}

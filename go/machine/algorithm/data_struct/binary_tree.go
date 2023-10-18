@@ -14,7 +14,7 @@ type BinaryTreeNode struct {
 	rightChild *BinaryTreeNode
 }
 
-func Make(slice []int) (res *BinaryTree, err error) {
+func (t BinaryTree) Make(slice []int) (res *BinaryTree, err error) {
 	if len(slice) == 0 {
 		err = errors.New("empty slice, not able to make a tree")
 		return nil, err
