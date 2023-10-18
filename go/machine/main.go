@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello world")
+	var p *int = nil
+	fmt.Println(p)
 }
