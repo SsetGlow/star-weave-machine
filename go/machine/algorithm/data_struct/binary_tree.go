@@ -37,3 +37,15 @@ func MakeNode(value int, node *BinaryTreeNode) {
 
 	}
 }
+
+func (t BinaryTree) PreorderTraverse() (res *[]int) {
+	return res
+}
+
+func (t BinaryTree) InorderTraverse() (res *[]int) {
+	return res
+}
+
+func (t BinaryTree) PostorderTraverse() (res *[]int) {
+	return res
+}
